@@ -1,0 +1,24 @@
+@font-face{
+    font-family: "PoppinsLocal";
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    font-family: "PoppinsLocal", Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; /*El comportamiento por defecto de los navegadores*/
+}
+
+body{
+     background-color: #000;
+}
+
+header{
+    background-color: #ffff;
+    height: 55px;
+    display: flex;
+}
